@@ -1,23 +1,38 @@
 @media screen and (max-width: 410px) {
 
     body {
-        background-image: url(../img/bk.jpg);
+        /* background-image: url(../img/bk.jpg); */
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    #time {
+    #time,
+    .text {
         color: rgb(255, 255, 255);
     }
-    .index{
+
+    .index {
         margin-top: 40%;
+    }
+
+    .text1,
+    .text2 {
+        color: black;
     }
 }
 
 body {
     font-size: .2rem;
-    color: rgb(58, 57, 57);
-    background-color: lightcyan;
+    color: gray;
+    /* background-color: lightcyan; */
+    /* background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover; */
 }
 
 #time {
@@ -45,7 +60,7 @@ hr {
 .text1,
 .text2 {
     font-size: .8rem;
-    font-family: 楷体;
+    font-family: KaiTi;
     position: absolute;
 }
 
@@ -56,4 +71,20 @@ hr {
 .text2 {
     bottom: 1rem;
     left: 1rem;
+}
+
+.text {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.icp {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    color: black;
 }

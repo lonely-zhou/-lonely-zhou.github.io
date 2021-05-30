@@ -44,5 +44,5 @@ if (deviceWidth > 410) {
     document.body.style.backgroundPosition = "center 0";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundAttachment="fixed";
-    document.body.style.backgroundSize=cover;
+    document.body.style.backgroundSize="cover";
 }
